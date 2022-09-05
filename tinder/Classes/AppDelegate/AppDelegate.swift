@@ -22,6 +22,7 @@ class AppDelegate: AppDelegateManager {
         
         // Setup Modules
         container.apply(MainAssembly.self)
+        container.apply(StartAssembly.self)
         
         // Setup Services
         container.apply(AppConfigServiceAssembly.self)

@@ -11,7 +11,7 @@ import UIKit
 class MainCoordinator: BaseCoordinator, MainCoordinatorType {
     
     override func start() {
-        let module = container.resolve(MainAssembly.self).build(coordinator: self)
+        let module = container.resolve(StartAssembly.self).build(coordinator: self)
         router.setRootModule(module)
     }
     

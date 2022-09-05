@@ -79,10 +79,22 @@
 		37D2DB4128C5D50500820BC8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DB4028C5D50500820BC8 /* Theme.swift */; };
 		37D2DB4428C5D50500820BC8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 37D2DB4328C5D50500820BC8 /* Podfile */; };
 		37D2DB4728C5D50500820BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D2DB4628C5D50500820BC8 /* Assets.xcassets */; };
-		37D2DB4A28C5D50500820BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D2DB4828C5D50500820BC8 /* LaunchScreen.storyboard */; };
 		37D2DB5528C5D50500820BC8 /* tinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DB5428C5D50500820BC8 /* tinderTests.swift */; };
 		37D2DB5F28C5D50500820BC8 /* tinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DB5E28C5D50500820BC8 /* tinderUITests.swift */; };
 		37D2DB6128C5D50500820BC8 /* tinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DB6028C5D50500820BC8 /* tinderUITestsLaunchTests.swift */; };
+		37D2DBC528C5D9E900820BC8 /* StartAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBB928C5D9E900820BC8 /* StartAssembly.swift */; };
+		37D2DBC628C5D9E900820BC8 /* StartContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBBB28C5D9E900820BC8 /* StartContracts.swift */; };
+		37D2DBC728C5D9E900820BC8 /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBBD28C5D9E900820BC8 /* StartPresenter.swift */; };
+		37D2DBC828C5D9E900820BC8 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBBF28C5D9E900820BC8 /* StartViewController.swift */; };
+		37D2DBC928C5D9E900820BC8 /* StartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBC128C5D9E900820BC8 /* StartInteractor.swift */; };
+		37D2DBCA28C5D9E900820BC8 /* StartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBC328C5D9E900820BC8 /* StartRouter.swift */; };
+		37D2DBCC28C5DA2700820BC8 /* StartViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBCB28C5DA2700820BC8 /* StartViewLayout.swift */; };
+		37D2DBCE28C5DA3500820BC8 /* StartViewBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBCD28C5DA3500820BC8 /* StartViewBindings.swift */; };
+		37D2DBD028C5DFAB00820BC8 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D2DBCF28C5DFAB00820BC8 /* Start.storyboard */; };
+		37D2DBD228C5F5A700820BC8 /* StartScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D2DBD128C5F5A700820BC8 /* StartScreen.storyboard */; };
+		37D2DBD428C6750200820BC8 /* MainViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBD328C6750200820BC8 /* MainViewLayout.swift */; };
+		37D2DBD628C6751300820BC8 /* MainViewBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2DBD528C6751300820BC8 /* MainViewBindings.swift */; };
+		EFDA8AA80281D151136F1C61 /* Pods_tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D30BB060D0271E8A130AF74 /* Pods_tinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +115,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D30BB060D0271E8A130AF74 /* Pods_tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D2DA8128C5D50500820BC8 /* tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D2DA8928C5D50500820BC8 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
 		37D2DA8C28C5D50500820BC8 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
@@ -176,13 +189,26 @@
 		37D2DB4028C5D50500820BC8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		37D2DB4328C5D50500820BC8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../../Podfile; sourceTree = "<group>"; };
 		37D2DB4628C5D50500820BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		37D2DB4928C5D50500820BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37D2DB4B28C5D50500820BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D2DB5028C5D50500820BC8 /* tinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D2DB5428C5D50500820BC8 /* tinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderTests.swift; sourceTree = "<group>"; };
 		37D2DB5A28C5D50500820BC8 /* tinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D2DB5E28C5D50500820BC8 /* tinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderUITests.swift; sourceTree = "<group>"; };
 		37D2DB6028C5D50500820BC8 /* tinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37D2DBB928C5D9E900820BC8 /* StartAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartAssembly.swift; sourceTree = "<group>"; };
+		37D2DBBB28C5D9E900820BC8 /* StartContracts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartContracts.swift; sourceTree = "<group>"; };
+		37D2DBBD28C5D9E900820BC8 /* StartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		37D2DBBF28C5D9E900820BC8 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		37D2DBC128C5D9E900820BC8 /* StartInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartInteractor.swift; sourceTree = "<group>"; };
+		37D2DBC328C5D9E900820BC8 /* StartRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartRouter.swift; sourceTree = "<group>"; };
+		37D2DBCB28C5DA2700820BC8 /* StartViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewLayout.swift; sourceTree = "<group>"; };
+		37D2DBCD28C5DA3500820BC8 /* StartViewBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewBindings.swift; sourceTree = "<group>"; };
+		37D2DBCF28C5DFAB00820BC8 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		37D2DBD128C5F5A700820BC8 /* StartScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartScreen.storyboard; sourceTree = "<group>"; };
+		37D2DBD328C6750200820BC8 /* MainViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewLayout.swift; sourceTree = "<group>"; };
+		37D2DBD528C6751300820BC8 /* MainViewBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBindings.swift; sourceTree = "<group>"; };
+		74EEDAEF15046415F81EEBE5 /* Pods-tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinder.debug.xcconfig"; path = "Target Support Files/Pods-tinder/Pods-tinder.debug.xcconfig"; sourceTree = "<group>"; };
+		96495F6D0877F82252FC7E0F /* Pods-tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinder.release.xcconfig"; path = "Target Support Files/Pods-tinder/Pods-tinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDA8AA80281D151136F1C61 /* Pods_tinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,13 +237,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0B1A7AEB16BDA59B63383C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74EEDAEF15046415F81EEBE5 /* Pods-tinder.debug.xcconfig */,
+				96495F6D0877F82252FC7E0F /* Pods-tinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		37D2DA7828C5D50500820BC8 = {
 			isa = PBXGroup;
 			children = (
+				37D2DBD128C5F5A700820BC8 /* StartScreen.storyboard */,
 				37D2DA8328C5D50500820BC8 /* tinder */,
 				37D2DB5328C5D50500820BC8 /* tinderTests */,
 				37D2DB5D28C5D50500820BC8 /* tinderUITests */,
 				37D2DA8228C5D50500820BC8 /* Products */,
+				2E0B1A7AEB16BDA59B63383C /* Pods */,
+				386CD78F91C7F79F58530726 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +309,7 @@
 		37D2DA8628C5D50500820BC8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				37D2DBB528C5D9E900820BC8 /* Start */,
 				37D2DA8728C5D50500820BC8 /* Main */,
 			);
 			path = Modules;
@@ -325,6 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				37D2DA9528C5D50500820BC8 /* MainViewController.swift */,
+				37D2DBD328C6750200820BC8 /* MainViewLayout.swift */,
+				37D2DBD528C6751300820BC8 /* MainViewBindings.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -714,7 +756,6 @@
 			isa = PBXGroup;
 			children = (
 				37D2DB4328C5D50500820BC8 /* Podfile */,
-				37D2DB4828C5D50500820BC8 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -744,6 +785,86 @@
 			path = tinderUITests;
 			sourceTree = "<group>";
 		};
+		37D2DBB528C5D9E900820BC8 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBB628C5D9E900820BC8 /* Storyboards */,
+				37D2DBB828C5D9E900820BC8 /* Assembly */,
+				37D2DBBA28C5D9E900820BC8 /* Contracts */,
+				37D2DBBC28C5D9E900820BC8 /* Presenter */,
+				37D2DBBE28C5D9E900820BC8 /* View */,
+				37D2DBC028C5D9E900820BC8 /* Interactor */,
+				37D2DBC228C5D9E900820BC8 /* Router */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		37D2DBB628C5D9E900820BC8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBCF28C5DFAB00820BC8 /* Start.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		37D2DBB828C5D9E900820BC8 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBB928C5D9E900820BC8 /* StartAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		37D2DBBA28C5D9E900820BC8 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBBB28C5D9E900820BC8 /* StartContracts.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		37D2DBBC28C5D9E900820BC8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBBD28C5D9E900820BC8 /* StartPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		37D2DBBE28C5D9E900820BC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBBF28C5D9E900820BC8 /* StartViewController.swift */,
+				37D2DBCB28C5DA2700820BC8 /* StartViewLayout.swift */,
+				37D2DBCD28C5DA3500820BC8 /* StartViewBindings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37D2DBC028C5D9E900820BC8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBC128C5D9E900820BC8 /* StartInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		37D2DBC228C5D9E900820BC8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				37D2DBC328C5D9E900820BC8 /* StartRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		386CD78F91C7F79F58530726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D30BB060D0271E8A130AF74 /* Pods_tinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -751,9 +872,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D2DB6428C5D50500820BC8 /* Build configuration list for PBXNativeTarget "tinder" */;
 			buildPhases = (
+				4FA39C2D778AD470DD45AEED /* [CP] Check Pods Manifest.lock */,
 				37D2DA7D28C5D50500820BC8 /* Sources */,
 				37D2DA7E28C5D50500820BC8 /* Frameworks */,
 				37D2DA7F28C5D50500820BC8 /* Resources */,
+				E3C1E2EB2F27BD746C5CFB72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -848,8 +971,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D2DBD228C5F5A700820BC8 /* StartScreen.storyboard in Resources */,
 				37D2DB4428C5D50500820BC8 /* Podfile in Resources */,
-				37D2DB4A28C5D50500820BC8 /* LaunchScreen.storyboard in Resources */,
+				37D2DBD028C5DFAB00820BC8 /* Start.storyboard in Resources */,
 				37D2DB4728C5D50500820BC8 /* Assets.xcassets in Resources */,
 				37D2DA9928C5D50500820BC8 /* Main.storyboard in Resources */,
 			);
@@ -871,13 +995,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FA39C2D778AD470DD45AEED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C1E2EB2F27BD746C5CFB72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinder/Pods-tinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinder/Pods-tinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tinder/Pods-tinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37D2DA7D28C5D50500820BC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D2DBC528C5D9E900820BC8 /* StartAssembly.swift in Sources */,
 				37D2DB3328C5D50500820BC8 /* ThreadTweak.swift in Sources */,
 				37D2DB2528C5D50500820BC8 /* DependencyContainer.swift in Sources */,
+				37D2DBCC28C5DA2700820BC8 /* StartViewLayout.swift in Sources */,
 				37D2DA9328C5D50500820BC8 /* MainContracts.swift in Sources */,
 				37D2DB4128C5D50500820BC8 /* Theme.swift in Sources */,
 				37D2DACA28C5D50500820BC8 /* LaunchInstructor.swift in Sources */,
@@ -894,15 +1062,18 @@
 				37D2DB1128C5D50500820BC8 /* UINavigationController+Ext.swift in Sources */,
 				37D2DB1328C5D50500820BC8 /* UIScrollView+Ext.swift in Sources */,
 				37D2DA8A28C5D50500820BC8 /* MainAssembly.swift in Sources */,
+				37D2DBD628C6751300820BC8 /* MainViewBindings.swift in Sources */,
 				37D2DB2328C5D50500820BC8 /* AssemblyFactory.swift in Sources */,
 				37D2DAAB28C5D50500820BC8 /* MainCoordinatorType.swift in Sources */,
 				37D2DB1528C5D50500820BC8 /* UITabBar+Ext.swift in Sources */,
 				37D2DAF728C5D50500820BC8 /* Data+Ext.swift in Sources */,
 				37D2DB2128C5D50500820BC8 /* Assembly.swift in Sources */,
 				37D2DAAF28C5D50500820BC8 /* AppConfigService.swift in Sources */,
+				37D2DBCA28C5D9E900820BC8 /* StartRouter.swift in Sources */,
 				37D2DADD28C5D50500820BC8 /* BaseModuleRouter.swift in Sources */,
 				37D2DACC28C5D50500820BC8 /* BaseCoordinator.swift in Sources */,
 				37D2DAFD28C5D50500820BC8 /* NSObject+Ext.swift in Sources */,
+				37D2DBC628C5D9E900820BC8 /* StartContracts.swift in Sources */,
 				37D2DABA28C5D50500820BC8 /* EnvironmentServiceType.swift in Sources */,
 				37D2DB0B28C5D50500820BC8 /* UIImage+Ext.swift in Sources */,
 				37D2DAE128C5D50500820BC8 /* ContainerView.swift in Sources */,
@@ -927,6 +1098,9 @@
 				37D2DAB628C5D50500820BC8 /* EnvironmentService.swift in Sources */,
 				37D2DA8D28C5D50500820BC8 /* MainInteractor.swift in Sources */,
 				37D2DAEA28C5D50500820BC8 /* Constants.swift in Sources */,
+				37D2DBD428C6750200820BC8 /* MainViewLayout.swift in Sources */,
+				37D2DBC728C5D9E900820BC8 /* StartPresenter.swift in Sources */,
+				37D2DBCE28C5DA3500820BC8 /* StartViewBindings.swift in Sources */,
 				37D2DAD928C5D50500820BC8 /* Router.swift in Sources */,
 				37D2DAA228C5D50500820BC8 /* AppCoordinatorAssembly.swift in Sources */,
 				37D2DA9628C5D50500820BC8 /* MainViewController.swift in Sources */,
@@ -935,6 +1109,7 @@
 				37D2DB0028C5D50500820BC8 /* Int+Ext.swift in Sources */,
 				37D2DB0328C5D50500820BC8 /* String+Ext.swift in Sources */,
 				37D2DAB128C5D50500820BC8 /* AppConfigServiceAssembly.swift in Sources */,
+				37D2DBC828C5D9E900820BC8 /* StartViewController.swift in Sources */,
 				37D2DA9C28C5D50500820BC8 /* MainRouter.swift in Sources */,
 				37D2DB0628C5D50500820BC8 /* URL+Ext.swift in Sources */,
 				37D2DB2B28C5D50500820BC8 /* WeakBox.swift in Sources */,
@@ -945,6 +1120,7 @@
 				37D2DB3828C5D50500820BC8 /* ServerApi.swift in Sources */,
 				37D2DB3528C5D50500820BC8 /* UtilsTweak.swift in Sources */,
 				37D2DAE428C5D50500820BC8 /* ViewBuilder.swift in Sources */,
+				37D2DBC928C5D9E900820BC8 /* StartInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,17 +1155,6 @@
 			targetProxy = 37D2DB5B28C5D50500820BC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		37D2DB4828C5D50500820BC8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37D2DB4928C5D50500820BC8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		37D2DB6228C5D50500820BC8 /* Debug */ = {
@@ -1108,12 +1273,16 @@
 		};
 		37D2DB6528C5D50500820BC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EEDAEF15046415F81EEBE5 /* Pods-tinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MXX3777WL6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Start;
+				INFOPLIST_KEY_UIMainStoryboardFile = Start;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1129,12 +1298,16 @@
 		};
 		37D2DB6628C5D50500820BC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96495F6D0877F82252FC7E0F /* Pods-tinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MXX3777WL6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Start;
+				INFOPLIST_KEY_UIMainStoryboardFile = Start;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
