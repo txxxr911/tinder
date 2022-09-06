@@ -26,7 +26,28 @@ extension StartPresenter: StartModuleInput {
 
 // MARK: View Output
 extension StartPresenter: StartViewOutput {
+  
+    func loginButtonDidPress() {
+        
+    }
+    
+    func signUpButtonDidPress() {
+        
+    }
+    
+    func signInWithAppleButtonPressed() {
+        router.navigateToMainView()
+    }
+    
+    func signInWithFacebookButtonPressed() {
+        router.navigateToMainView()
+    }
+    
+    func signInWithNumberOfPhoneButtonPressed() {
+        router.navigateToMainView()
+    }
+    
     func viewDidLoad() {
-        view?.set(title: "Start")
+        
     }
 }

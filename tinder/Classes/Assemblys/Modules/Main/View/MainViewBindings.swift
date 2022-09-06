@@ -6,3 +6,12 @@
 //
 
 import Foundation  
+
+extension MainViewController {
+    
+    func bind() {
+        
+    }
+    
+    
+}

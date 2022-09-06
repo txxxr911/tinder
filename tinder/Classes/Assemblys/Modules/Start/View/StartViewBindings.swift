@@ -13,6 +13,9 @@ extension StartViewController {
         bindAgreementTextView()
         bindLoginButton()
         bindCreateAccountButton()
+        bindSignInWithAppleButton()
+        bindSignInWithFacebookButton()
+        bindSignInWithNumberOfPhoneButton()
     }
     
     
@@ -57,6 +60,18 @@ extension StartViewController {
     }
     
     func bindLoginButton() {
-        
+        loginButton.addTarget(self, action: #selector(loginButtonPressed), for: .touchUpInside)
+    }
+    
+    func bindSignInWithAppleButton() {
+        signInWithAppleButton.addTarget(self, action: #selector(signInWithAppleButtonPressed), for: .touchUpInside)
+    }
+    
+    func bindSignInWithFacebookButton() {
+        signInWithFacebookButton.addTarget(self, action: #selector(signInWithFacebookButtonPressed), for: .touchUpInside)
+    }
+    
+    func bindSignInWithNumberOfPhoneButton() {
+        signInWithNumberOfPhoneButton.addTarget(self, action: #selector(signInWithNumberOfPhoneButtonPressed), for: .touchUpInside)
     }
 }

@@ -10,4 +10,13 @@ import Foundation
 
 class StartRouter: BaseModuleRouter, StartRouterProtocol {
     
+    func navigateToMainView() {
+        let module = container.resolve(MainAssembly.self).build(coordinator: coordinator)
+        coordinator.router.setRootModule(module)
+    }
+    
+    func navigateToSignUpView() {
+        
+    }
+    
 }

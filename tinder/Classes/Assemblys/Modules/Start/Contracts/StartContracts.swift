@@ -26,6 +26,12 @@ protocol StartViewInput: class {
 // View Output
 protocol StartViewOutput: class {
     func viewDidLoad()
+    func loginButtonDidPress()
+    func signUpButtonDidPress()
+    func signInWithAppleButtonPressed()
+    func signInWithFacebookButtonPressed()
+    func signInWithNumberOfPhoneButtonPressed()
+    
 }
 
 // Interactor
@@ -34,5 +40,6 @@ protocol StartInteractorInput {
 
 // Router
 protocol StartRouterProtocol: AlertRoutable {
+    func navigateToMainView()
     
 }

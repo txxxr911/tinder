@@ -23,6 +23,10 @@ extension StartViewController {
         layoutAgreementTextView()
         layoutCreateAccountButton()
         layoutLoginButton()
+        layoutSignInWithNumberOfPhoneButton()
+        layoutSignInWithFacebookButton()
+        layoutSignInWithAppleButton()
+        
     }
     
     func layoutBackground() {
@@ -96,6 +100,67 @@ extension StartViewController {
             
         }
         
+    }
+    
+    func layoutSignInWithAppleButton() {
+        view.addSubview(signInWithAppleButton)
+        signInWithAppleButton.isHidden = true
+        
+        signInWithAppleButton.layer.backgroundColor = UIColor.clear.cgColor
+        signInWithAppleButton.layer.cornerRadius = 20
+        signInWithAppleButton.setTitle("Войти c Apple", for: .normal)
+        signInWithAppleButton.setTitleColor(.white, for: .normal)
+        signInWithAppleButton.layer.borderColor = UIColor.white.cgColor
+        signInWithAppleButton.layer.borderWidth = 2
+        
+        signInWithAppleButton.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.width.equalTo(290)
+            make.height.equalTo(45)
+            make.top.equalTo(signInWithFacebookButton).inset(-55)
+            
+        }
+        
+    }
+    
+    func layoutSignInWithFacebookButton() {
+        view.addSubview(signInWithFacebookButton)
+        signInWithFacebookButton.isHidden = true
+        
+        signInWithFacebookButton.layer.backgroundColor = UIColor.clear.cgColor
+        signInWithFacebookButton.layer.cornerRadius = 20
+        signInWithFacebookButton.setTitle("Войти c Facebook", for: .normal)
+        signInWithFacebookButton.setTitleColor(.white, for: .normal)
+        signInWithFacebookButton.layer.borderColor = UIColor.white.cgColor
+        signInWithFacebookButton.layer.borderWidth = 2
+        
+        signInWithFacebookButton.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.width.equalTo(290)
+            make.height.equalTo(45)
+            make.top.equalTo(createAccountButton).inset(15)
+            
+        }
+    }
+    
+    func layoutSignInWithNumberOfPhoneButton() {
+        view.addSubview(signInWithNumberOfPhoneButton)
+        signInWithNumberOfPhoneButton.isHidden = true
+        
+        signInWithNumberOfPhoneButton.layer.backgroundColor = UIColor.clear.cgColor
+        signInWithNumberOfPhoneButton.layer.cornerRadius = 20
+        signInWithNumberOfPhoneButton.setTitle("Войти по номеру телефона", for: .normal)
+        signInWithNumberOfPhoneButton.setTitleColor(.white, for: .normal)
+        signInWithNumberOfPhoneButton.layer.borderColor = UIColor.white.cgColor
+        signInWithNumberOfPhoneButton.layer.borderWidth = 2
+        
+        signInWithNumberOfPhoneButton.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.width.equalTo(290)
+            make.height.equalTo(45)
+            make.top.equalTo(createAccountButton).inset(70)
+            
+        }
     }
     
 }
